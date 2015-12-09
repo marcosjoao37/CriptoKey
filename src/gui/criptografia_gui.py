@@ -32,7 +32,7 @@ class cripto_janela(Gtk.Window):
 		#Elementos
 		#Box 1
 		self.chave_label = Gtk.Label()
-		self.chave_label.set_text("Digite a chave (16 bits):")
+		self.chave_label.set_text("Digite a chave:")
 		self.box1.pack_start(self.chave_label, False, False, 10)
 
 		self.chave_entrada = Gtk.Entry()

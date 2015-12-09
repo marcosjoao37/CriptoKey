@@ -9,7 +9,7 @@ O programa visa ajudar a segurança de informações pessoais veiculadas em arqu
 As chaves suportam até 16 dígitos.
 
 #### Execuntando:
-Vá até a pasta onde você clonou o repositório e execute o sh: `sh CriptoKeySetup.sh`
+Vá até a pasta onde destes o clone e execute o sh: `sh CriptoKeySetup.sh`
 
 ### Necessário:
 

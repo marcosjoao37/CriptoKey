@@ -6,10 +6,6 @@ Criptografe mensagens importantes e compartilhe com seus amigos sem que os outro
 #### Objetivo:
 
 O programa visa ajudar a segurança de informações pessoais veiculadas em arquivos ou pela internet, por meio de codificação e descodificação usando chaves privadas.
-As chaves suportam até 16 dígitos.
-
-#### Execuntando:
-Vá até a pasta onde você clonou o repositório e execute o sh: `sh CriptoKeySetup.sh`
 
 ### Necessário:
 

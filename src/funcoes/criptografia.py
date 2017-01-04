@@ -6,7 +6,7 @@ class criptografia:
         Criptografa a mensagem, somando o valor ASCII de cada letra a um valor ASCII da chave
         transformada anteriormente. Caso a palavra seja maior do que o tamanho da chave,
         começasse a somar a partir da primeira posição da lista quando ela chegar ao final.
-        Logo após a soma dos valores ASCII, transformasse o novo valor ASCII no caractere
+        Logo após a soma dos valores ASCII, transformasse o novo valor no caractere
         correspondente na tabela ASCII.
         """
 
@@ -67,9 +67,9 @@ class criptografia:
         #Retorna a mensagem secreta descriptografada
         return self.msg_secreta
 
-    def verifica_chave(self, chave):
-        # Se o tamanho da chave for maior do que 16 (16 bits), ele cancela a operação de criptografia
-        if len(chave) > 16:
-            return False
-        else:
-            return True
+    # def verifica_chave(self, chave):
+    #     # Se o tamanho da chave for maior do que 16 (16 bits), ele cancela a operação de criptografia
+    #     if len(chave) > 16:
+    #         return False
+    #     else:
+    #         return True

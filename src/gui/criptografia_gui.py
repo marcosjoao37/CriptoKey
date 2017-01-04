@@ -1,5 +1,5 @@
 from gi.repository import Gtk
-from funcoes.criptografia import criptografia
+from src.funcoes.criptografia import criptografia
 
 c = criptografia()
 
@@ -36,7 +36,7 @@ class cripto_janela(Gtk.Window):
 		self.box1.pack_start(self.chave_label, False, False, 10)
 
 		self.chave_entrada = Gtk.Entry()
-		self.chave_entrada.set_max_length(16)
+		#self.chave_entrada.set_max_length(16)
 		self.chave_entrada.set_width_chars(30)
 		self.chave_entrada.set_placeholder_text("Digite a chave aqui...")
 		self.box1.pack_start(self.chave_entrada, True, True, 10)

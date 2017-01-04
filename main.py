@@ -1,5 +1,5 @@
 from gi.repository import Gtk
-from gui.criptografia_gui import cripto_janela
+from src.gui.criptografia_gui import cripto_janela
 
 CriptoKey = cripto_janela()
 CriptoKey.connect("delete-event", Gtk.main_quit)
